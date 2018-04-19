@@ -62,3 +62,92 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
+
+a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.2);
+}
+.container {
+	width: 80%;
+	margin: 40px auto;
+}
+
+nav {
+	display: inline-block;
+}
+
+nav a{
+	padding-right: 20px;
+	margin-right: 20px;
+}
+
+header {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	margin-bottom: 50px;
+}
+img.logo {
+	float: right;
+	display: inline-block;
+}
+
+div.cta-text {
+	display: inline-block;
+	position: absolute;
+	top: 12em;
+	left: 15em;;
+	text-align: center;
+	clear: both;
+}
+
+section.main-content {
+	position: relative;
+}
+
+section.cta img{
+	float: right;
+	margin-bottom:50px;
+	width: 22em;
+}
+
+.main-content {
+	clear: both;
+}
+
+div .cta-text h1 {
+	font-size: 4em;
+	
+}
+
+button {
+	background-color: white;
+	color: rgba(0, 0, 0, 0.6);
+	border: 2px solid rgb(0, 0, 0, 0.2);
+	padding: 5px 35px 5px 35px;
+	margin-top: 5px;
+}
+
+div.top-content p {
+	min-width: 100%;
+	display: inline-block;
+	
+}
+
+.top-content .text-content {
+	margin-right: 150px;
+}
+
+div.text-content {
+	display: inline-block;
+	width: 300px;
+	margin: 30px 0 30px 0;
+}
+
+img.middle-img {
+	min-width: 100%;
+}
+
+footer p{
+	margin: 0 auto;
+}
