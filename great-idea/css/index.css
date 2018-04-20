@@ -63,91 +63,102 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-a {
-	text-decoration: none;
-	color: rgba(0, 0, 0, 0.2);
-}
 .container {
-	width: 80%;
-	margin: 40px auto;
-}
-
-nav {
-	display: inline-block;
-}
-
-nav a{
-	padding-right: 20px;
-	margin-right: 20px;
+	width: 800px;
+	margin: auto;
 }
 
 header {
-	display: inline-block;
-	position: relative;
 	width: 100%;
-	margin-bottom: 50px;
-}
-img.logo {
-	float: right;
-	display: inline-block;
+	display: flex;
 }
 
-div.cta-text {
-	display: inline-block;
-	position: absolute;
-	top: 12em;
-	left: 15em;;
+header nav {
+	margin-top: 40px;
+	width: 610px;
+	justify-content: space-around;
+	display: flex;
+}
+
+header nav a {
+	text-decoration: none;
+	color: #b0b0b0;
+}
+
+header nav a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+header .logo {
+	align-self: flex-end;
+	margin: 28px 0 0 91px;
+}
+
+.cta {
+	display: flex;
+	margin-top: 72px;
+	justify-content: flex-end;
+}
+
+.cta .cta-text {
+	font-size: 72px;
 	text-align: center;
-	clear: both;
+	letter-spacing: 5px;
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+	align-items: center;
+	margin: 0 82px 0 0;
 }
 
-section.main-content {
-	position: relative;
+.cta .cta-text button {
+	border: 1px double black;
+	font-size: 16px;
+	background: white;
+	width: 170px;
+	height: 32px;
+	margin-top: 10px;
+	cursor: pointer;
 }
 
-section.cta img{
-	float: right;
-	margin-bottom:50px;
-	width: 22em;
+.cta .cta-text button:hover {
+	background: black;
+	color: white;
 }
-
 .main-content {
-	clear: both;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	margin: 75px 0 35px 0;
+	padding: 35px 0;
+	font-size: 16px;
+	line-height: 18px;
 }
 
-div .cta-text h1 {
-	font-size: 4em;
-	
+.main-content .top-content {
+	display: flex;
+	justify-content: space-around;
 }
 
-button {
-	background-color: white;
-	color: rgba(0, 0, 0, 0.6);
-	border: 2px solid rgb(0, 0, 0, 0.2);
-	padding: 5px 35px 5px 35px;
-	margin-top: 5px;
+.main-content .middle-img {
+	display: block;
+	margin: 30px auto;
 }
 
-div.top-content p {
-	min-width: 100%;
-	display: inline-block;
-	
+.main-content .bottom-content {
+	display: flex;
+	justify-content: space-around;
 }
 
-.top-content .text-content {
-	margin-right: 150px;
+.main-content .bottom-content p {
+	padding-right: 20px;
 }
 
-div.text-content {
-	display: inline-block;
-	width: 300px;
-	margin: 30px 0 30px 0;
+.contact p {
+	margin: 15px 0;
 }
 
-img.middle-img {
-	min-width: 100%;
-}
-
-footer p{
-	margin: 0 auto;
+footer {
+	text-align: center;
+	margin: 40px 0 20px;
 }
